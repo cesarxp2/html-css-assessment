@@ -1,0 +1,93 @@
+body {
+  background-image: url(./img/main-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#headcontainer {
+    display: flex;
+}
+
+#headcontainer img {
+  display: none;
+}
+ .header {
+   margin: auto;
+   font-weight: bolder;
+   color: white;
+   font-size: x-large;
+   flex-direction: row;
+ }
+
+#middlecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20%;
+}
+
+.your {
+    order: 0;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+.othertxt {
+    order: 1;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#go {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: auto;
+}
+
+.arrow {
+    text-align: center;
+    margin: 15%;
+    font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: none;
+  }
+  #headcontainer img {
+    display: flex;
+  }
+  .hamburger {
+    width: 2em;
+    height: 2.5em;
+    float: left;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+  .tweetbird {
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 5px;
+  }
+  .fb {
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 5px;
+  }
+}
