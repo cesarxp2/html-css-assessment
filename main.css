@@ -73,6 +73,9 @@ body {
   #headcontainer img {
     display: flex;
   }
+  #headcontainer{
+    display: block;
+  }
   .hamburger {
     width: 2em;
     height: 2.5em;
