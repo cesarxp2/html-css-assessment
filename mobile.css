@@ -1,88 +1,100 @@
-
-  .header {
+.header {
     display: none;
-  }
-  #headcontainer img {
-    display: flex;
-  }
-  #headcontainer{
-    display: flex;
-  }
-  .hamburger {
-    width: 2em;
-    height: 2.5em;
-    float: left;
-    margin-left: 10%;
-    margin-right: 60%;
 }
-  .tweetbird {
-    width: 1.5em;
-    height: 1.5em;
-    padding-top: 5px;
-  }
-  .fb {
-    width: 1.5em;
-    height: 1.5em;
-    padding-top: 5px;
-  }
 
-  body {
+body {
     background-image: url(./img/main-bg.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
 
-  }
+.header {
+    margin: auto;
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+    flex-direction: row;
+}
 
-   .header {
-     margin: auto;
-     font-weight: bolder;
-     color: white;
-     font-size: x-large;
-     flex-direction: row;
-   }
-
-  #middlecontainer {
+#middlecontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20%;
-  }
+    width: 100vw!important;
+    height: 100vh;
+}
 
-  .your {
-      order: 0;
-      text-align: center;
-      font-size: 80px;
-      font-weight: bolder;
-      color: white;
-      margin-bottom: 0;
+.your {
+    order: 0;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0;
+}
 
-  }
+.othertxt {
+    order: 1;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+}
 
-  .othertxt {
-      order: 1;
-      text-align: center;
-      font-size: 30px;
-      color: white;
-      font-weight: bold;
-      margin-top: -10px;
-  }
+#go {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: auto;
+}
 
-  #go {
-      border: 1px solid black;
-      border-radius: 50%;
-      background-color: white;
-      color: black;
-      height: 60px;
-      width: 60px;
-      display: flex;
-      flex-direction: column;
-      font-size: 30px;
-      margin: auto;
-  }
+.arrow {
+    text-align: center;
+    margin: 15%;
+    font-weight: 900;
+}
 
-  .arrow {
-      text-align: center;
-      margin: 15%;
-      font-weight: 900;
-  }
+.midtext {
+    margin: 35vh 0 35vh 0;
+}
+
+.fb {
+    width: 2em;
+    height: 2em;
+    padding-top: 5px;
+    margin-right: 6vw;
+}
+
+.tweetbird {
+    width: 2em;
+    height: 2em;
+    padding-top: 5px;
+    margin-right: 6vw;
+}
+
+.hamburger {
+    width: 3.5em;
+    height: 4em;
+    margin: 3vh 0 0 7vw;
+    padding-top: 5px;
+}
+
+#headcontainer {
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 6vh;
+    justify-content: space-between;
+}
+
+#headcontainer img {
+    display: inline-block;
+}
